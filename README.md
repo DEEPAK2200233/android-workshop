@@ -1,12 +1,13 @@
 ## Develop a program to create a simple calculator only to perform addition using Android Studio.
 
-AIM:
+## AIM:
 To develop a program to create a simple calculator only to perform addition using Android Studio.
 
-EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
 Android Studio(Min. required Artic Fox)
 
-ALGORITHM:
+## ALGORITHM:
+
 Step 1: Open Android Studio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as SMSIntent and click Next.
@@ -21,7 +22,8 @@ Step 6: Perform the Calculator Operation(to add) in MainActivity.java
 
 Step 7: Save and run the application.
 
-Program:
+## Program:
+```
 Program to create simple calculator to perform only addition using Android Studio.
 
 Developed by: DEEPAK RAJ S
@@ -95,7 +97,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
-activity_main.xml:
+```
+## activity_main.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -192,8 +196,9 @@ activity_main.xml:
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-Output:
-image
+```
+## Output:
+![image](https://github.com/DEEPAK2200233/android-workshop/assets/118707676/7de8ef78-00e6-4567-8e3a-c67559c960b4)
 
-Result:
+## Result:
 Thus a Simple Android Application to create a calculator only to perform addition operation using Android Studio was developed and executed successfully.
